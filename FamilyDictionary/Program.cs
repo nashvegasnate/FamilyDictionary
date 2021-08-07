@@ -20,11 +20,9 @@ namespace FamilyDictionary
             {
                 var who = person["name"]; 
                 var howMany = person["age"];
-                
-                Console.WriteLine($"{who} is my {relative} and is {howMany} years old");
 
+                Console.WriteLine($"{who} is my {relative} and is {howMany} years old");
                 
-                   
             }
         
         }
